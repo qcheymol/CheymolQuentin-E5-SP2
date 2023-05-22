@@ -71,3 +71,16 @@ E:\BC2-BC3\BC2-BC3_web\GSB\GSB_Appli\Test\obj\Debug\Test.csproj.CoreCompileInput
 E:\BC2-BC3\BC2-BC3_web\GSB\GSB_Appli\Test\obj\Debug\Test.csproj.CopyComplete
 E:\BC2-BC3\BC2-BC3_web\GSB\GSB_Appli\Test\obj\Debug\Test.exe
 E:\BC2-BC3\BC2-BC3_web\GSB\GSB_Appli\Test\obj\Debug\Test.pdb
+E:\BC2-BC3\BC2-POO\GSB\GSB_Appli\Test\bin\Debug\Test.exe.config
+E:\BC2-BC3\BC2-POO\GSB\GSB_Appli\Test\bin\Debug\Test.exe
+E:\BC2-BC3\BC2-POO\GSB\GSB_Appli\Test\bin\Debug\Test.pdb
+E:\BC2-BC3\BC2-POO\GSB\GSB_Appli\Test\bin\Debug\Biblio_BD.dll
+E:\BC2-BC3\BC2-POO\GSB\GSB_Appli\Test\bin\Debug\Biblio_gsb.dll
+E:\BC2-BC3\BC2-POO\GSB\GSB_Appli\Test\bin\Debug\MySql.Data.dll
+E:\BC2-BC3\BC2-POO\GSB\GSB_Appli\Test\bin\Debug\Biblio_BD.pdb
+E:\BC2-BC3\BC2-POO\GSB\GSB_Appli\Test\bin\Debug\Biblio_gsb.pdb
+E:\BC2-BC3\BC2-POO\GSB\GSB_Appli\Test\obj\Debug\Test.csproj.AssemblyReference.cache
+E:\BC2-BC3\BC2-POO\GSB\GSB_Appli\Test\obj\Debug\Test.csproj.CoreCompileInputs.cache
+E:\BC2-BC3\BC2-POO\GSB\GSB_Appli\Test\obj\Debug\Test.csproj.CopyComplete
+E:\BC2-BC3\BC2-POO\GSB\GSB_Appli\Test\obj\Debug\Test.exe
+E:\BC2-BC3\BC2-POO\GSB\GSB_Appli\Test\obj\Debug\Test.pdb
