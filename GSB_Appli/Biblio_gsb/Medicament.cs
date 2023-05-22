@@ -29,7 +29,7 @@ namespace Biblio_gsb
             this.famille = famille;
 
         }
-        public Medicament(int id_medicament, string libelle_medicament, string nomCommercial_medicament,string composition_medicament, string effets_medicament, string contreindications_medicament, int prixUnitaire)
+        public Medicament(int id_medicament, string nomCommercial_medicament,string composition_medicament, string effets_medicament, string contreindications_medicament, int prixUnitaire)
 
         {
             this.id_medicament = id_medicament;
@@ -40,6 +40,23 @@ namespace Biblio_gsb
             this.prixUnitaire = prixUnitaire;
 
 
+        }
+
+        public Medicament(int id_medicament, string nomCommercial_medicament, string composition_medicament, string effets_medicament, string contreindications_medicament, Famille famille)
+        {
+            this.id_medicament = id_medicament;
+            this.nomCommercial_medicament = nomCommercial_medicament;
+            this.composition_medicament = composition_medicament;
+            this.effets_medicament = effets_medicament;
+            this.contreindications_medicament = contreindications_medicament;
+            this.famille = famille;
+        }
+
+        public Medicament(int id_medicament, string nomCommercial_medicament)
+
+        {
+            this.id_medicament = id_medicament;
+            this.nomCommercial_medicament = nomCommercial_medicament;
         }
 
         #endregion
@@ -58,7 +75,11 @@ namespace Biblio_gsb
         #region fonction
         public override string ToString()
         {
-            return ("l'ID de " + NomCommercial_medicament + " est " + Id_medicament + ", les effets sont :" + Effets_medicament + ". Les contre indications sont :" + Contreindications_medicament);
+            string msg;
+
+            msg = nomCommercial_medicament + " " + famille.Libelle_famille;
+
+            return msg;
         }
         #endregion
     }

@@ -25,6 +25,18 @@ namespace Biblio_gsb
 
         }
 
+        public Medecin(int id_personne, string nom_personne, string prenom_personne, string adresse_personne, string tel, String departement) : base(id_personne, nom_personne, prenom_personne, adresse_personne)
+        {
+            this.tel = tel;
+            this.departement = departement;
+
+        }
+
+        public Medecin (string nom, string prenom):base(nom, prenom)
+        {
+            
+        }
+
         #endregion
 
         #region accesseur
@@ -39,7 +51,10 @@ namespace Biblio_gsb
 
         public override string ToString()
         {
-            return Nom_personne + " " + Prenom_personne;
+            string msg;
+            msg = Nom_personne + " " + Prenom_personne + " - " + laSpecialite.Libelle_specialite + "   - " + Adresse_personne + " (" + departement + ")" +" " + LaSpecialite.Libelle_specialite;
+
+            return msg;
         }
 
 

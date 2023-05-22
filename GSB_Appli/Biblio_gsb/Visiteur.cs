@@ -17,7 +17,7 @@ namespace Biblio_gsb
         {
 
         }
-        public Visiteur(int id_personne, string nom_personne, string prenom_personne, string adresse_personne, string login_visiteur, string mdp_visiteur, int cp_visiteur, string ville_visiteur, DateTime dateEmbauche_visiteur)
+        public Visiteur(int id_personne, string nom_personne, string prenom_personne, string login_visiteur, string mdp_visiteur, string adresse_personne, int cp_visiteur, string ville_visiteur, DateTime dateEmbauche_visiteur)
         : base(id_personne, nom_personne, prenom_personne, adresse_personne)
         {
             this.login_visiteur = login_visiteur;
@@ -26,12 +26,24 @@ namespace Biblio_gsb
             this.ville_visiteur = ville_visiteur;
             this.dateEmbauche_visiteur = dateEmbauche_visiteur;
         }
+        public Visiteur(int id_personne, string nom_personne, string prenom_personne, string adresse_personne, int cp_visiteur, string ville_visiteur, DateTime dateEmbauche_visiteur)
+        : base(id_personne, nom_personne, prenom_personne, adresse_personne)
+        {
+            this.cp_visiteur = cp_visiteur;
+            this.ville_visiteur = ville_visiteur;
+            this.dateEmbauche_visiteur = dateEmbauche_visiteur;
+        }
 
         public Visiteur(int id_personne, string nom_personne, string prenom_personne, string adresse_personne)
          : base(id_personne, nom_personne, prenom_personne, adresse_personne)
         {
+
         }
 
+        public Visiteur(string nom, string prenom):base(nom, prenom)
+        {
+
+        }
         #endregion
 
         #region accesseur
@@ -42,5 +54,13 @@ namespace Biblio_gsb
         public DateTime DateEmbauche_visiteur { get => dateEmbauche_visiteur; set => dateEmbauche_visiteur = value; }
 
         #endregion
+
+        public override string ToString()
+        {
+            string msg;
+            msg = Nom_personne + " " + Prenom_personne;
+
+            return msg;
+        }
     }
 }

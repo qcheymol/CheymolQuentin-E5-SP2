@@ -30,7 +30,12 @@ D:\BC2-BC3\BC2-POO\GSB\GSB_Appli\Biblio_gsb\obj\Debug\Biblio_gsb.dll
 D:\BC2-BC3\BC2-POO\GSB\GSB_Appli\Biblio_gsb\obj\Debug\Biblio_gsb.pdb
 E:\BC2-BC3\BC2-POO\GSB\GSB_Appli\Biblio_gsb\bin\Debug\Biblio_gsb.dll
 E:\BC2-BC3\BC2-POO\GSB\GSB_Appli\Biblio_gsb\bin\Debug\Biblio_gsb.pdb
-E:\BC2-BC3\BC2-POO\GSB\GSB_Appli\Biblio_gsb\obj\Debug\Biblio_gsb.csproj.AssemblyReference.cache
 E:\BC2-BC3\BC2-POO\GSB\GSB_Appli\Biblio_gsb\obj\Debug\Biblio_gsb.csproj.CoreCompileInputs.cache
 E:\BC2-BC3\BC2-POO\GSB\GSB_Appli\Biblio_gsb\obj\Debug\Biblio_gsb.dll
 E:\BC2-BC3\BC2-POO\GSB\GSB_Appli\Biblio_gsb\obj\Debug\Biblio_gsb.pdb
+D:\doc bts + Appli\GSB\GSB\GSB_Appli\Biblio_gsb\bin\Debug\Biblio_gsb.dll
+D:\doc bts + Appli\GSB\GSB\GSB_Appli\Biblio_gsb\bin\Debug\Biblio_gsb.pdb
+D:\doc bts + Appli\GSB\GSB\GSB_Appli\Biblio_gsb\obj\Debug\Biblio_gsb.csprojResolveAssemblyReference.cache
+D:\doc bts + Appli\GSB\GSB\GSB_Appli\Biblio_gsb\obj\Debug\Biblio_gsb.csproj.CoreCompileInputs.cache
+D:\doc bts + Appli\GSB\GSB\GSB_Appli\Biblio_gsb\obj\Debug\Biblio_gsb.dll
+D:\doc bts + Appli\GSB\GSB\GSB_Appli\Biblio_gsb\obj\Debug\Biblio_gsb.pdb

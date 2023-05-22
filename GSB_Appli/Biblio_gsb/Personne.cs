@@ -24,6 +24,11 @@ namespace Biblio_gsb
             this.adresse_personne = adresse_personne;
         }
 
+        public Personne(string nom_personne, string prenom_personne)
+        {
+            this.nom_personne = nom_personne;
+            this.prenom_personne = prenom_personne;
+        }
         #endregion
 
         #region accesseur
