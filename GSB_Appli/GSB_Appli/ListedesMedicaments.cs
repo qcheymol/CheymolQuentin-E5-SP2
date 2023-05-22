@@ -66,9 +66,9 @@ namespace GSB_Appli
         {
             GroupBoxMedicament.Visible = true;
             // récupération de l'indice du médicament sélectionné
-            int indexMed = ListBoxMedicament.SelectedIndex + 1;
+            int indexMed = ListBoxMedicament.SelectedIndex+1;
             // récupération du médicament dans la classe manager
-            Medicament medicament = DBconnect.GetMedicament(indexMed);
+            Medicament medicament = DBconnect.GetMedicamentParId(indexMed);
             // mise à jour des champs de texte
             textBoxId.Text = medicament.Id_medicament.ToString();
             textBoxNomCo.Text = medicament.NomCommercial_medicament;
@@ -134,6 +134,10 @@ namespace GSB_Appli
             {
                 MessageBox.Show("Veuillez entrer une valeur dans tous les champs", "Données non valides", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
+
+            btn_ajoutermedicament.Enabled = true;
+            mdf_Medicament.Enabled = false;
+            sup_medicament.Enabled = false;
         }
 
         private void mdf_Medicament_Click(object sender, EventArgs e)
@@ -156,6 +160,10 @@ namespace GSB_Appli
             {
                 MessageBox.Show("Veuillez entrer une valeur dans tous les champs", "Données non valides", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
+
+            btn_ajoutermedicament.Enabled = true;
+            mdf_Medicament.Enabled = false;
+            sup_medicament.Enabled = false;
         }
     }
 }

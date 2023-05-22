@@ -45,7 +45,13 @@ namespace GSB_Appli
 
         private void listeDesRapportsToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            ListedesRapports frm = new ListedesRapports() ;
+            ListedesRapport frm = new ListedesRapport() ;
+            frm.Show();
+        }
+
+        private void créerUnRapportToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AjouterRapport frm = new AjouterRapport();
             frm.Show();
         }
     }

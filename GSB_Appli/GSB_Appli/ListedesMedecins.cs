@@ -114,6 +114,10 @@ namespace GSB_Appli
              {
                  MessageBox.Show("Veuillez entrer une valeur dans tous les champs", "Données non valides", MessageBoxButtons.OK, MessageBoxIcon.Information);
              }
+
+            btn_ajoutermedecin.Enabled = true;
+            mdf_Medecin.Enabled = false;
+            sup_med.Enabled = false;
         }
 
         private void sup_med_Click(object sender, EventArgs e)
@@ -130,6 +134,10 @@ namespace GSB_Appli
             {
                 MessageBox.Show("Veuillez entrer une valeur dans tous les champs", "Données non valides", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
+
+            btn_ajoutermedecin.Enabled = true;
+            mdf_Medecin.Enabled = false;
+            sup_med.Enabled = false;
         }
 
             private void btnClear_Click(object sender, EventArgs e)
@@ -145,8 +153,8 @@ namespace GSB_Appli
             btn_ajoutermedecin.Enabled = false;
             mdf_Medecin.Enabled = true;
             sup_med.Enabled = true;
-            int IndexMed = (int)(dtgMedecin.CurrentRow.Cells["Id"].Value);
-            Medecin medecin = DBconnect.GetMedecin(IndexMed);
+            string NomMed = (string)(dtgMedecin.CurrentRow.Cells["Nom"].Value);
+            Medecin medecin = DBconnect.GetMedecin(NomMed);
             // mise à jour des champs de texte
             textBoxId.Text = medecin.Id_personne.ToString();
             textBoxNom.Text = medecin.Nom_personne;

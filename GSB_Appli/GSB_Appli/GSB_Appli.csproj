@@ -47,11 +47,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AjouterRapport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AjouterRapport.Designer.cs">
+      <DependentUpon>AjouterRapport.cs</DependentUpon>
+    </Compile>
     <Compile Include="ListedesMedicaments.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ListedesMedicaments.Designer.cs">
       <DependentUpon>ListedesMedicaments.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListedesRapport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListedesRapport.Designer.cs">
+      <DependentUpon>ListedesRapport.cs</DependentUpon>
     </Compile>
     <Compile Include="ListedesVisiteurs.cs">
       <SubType>Form</SubType>
@@ -71,25 +83,22 @@
     <Compile Include="Menu.Designer.cs">
       <DependentUpon>Menu.cs</DependentUpon>
     </Compile>
-    <Compile Include="Offrir.cs">
+    <Compile Include="ModifierRapport.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Offrir.Designer.cs">
-      <DependentUpon>Offrir.cs</DependentUpon>
+    <Compile Include="ModifierRapport.Designer.cs">
+      <DependentUpon>ModifierRapport.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ListedesRapports.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ListedesRapports.Designer.cs">
-      <DependentUpon>ListedesRapports.cs</DependentUpon>
-    </Compile>
+    <EmbeddedResource Include="AjouterRapport.resx">
+      <DependentUpon>AjouterRapport.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ListedesMedicaments.resx">
       <DependentUpon>ListedesMedicaments.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ListedesRapports.resx">
-      <DependentUpon>ListedesRapports.cs</DependentUpon>
+    <EmbeddedResource Include="ListedesRapport.resx">
+      <DependentUpon>ListedesRapport.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ListedesVisiteurs.resx">
       <DependentUpon>ListedesVisiteurs.cs</DependentUpon>
@@ -100,8 +109,8 @@
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Offrir.resx">
-      <DependentUpon>Offrir.cs</DependentUpon>
+    <EmbeddedResource Include="ModifierRapport.resx">
+      <DependentUpon>ModifierRapport.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

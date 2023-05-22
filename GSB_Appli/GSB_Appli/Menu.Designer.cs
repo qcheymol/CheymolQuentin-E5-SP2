@@ -33,13 +33,13 @@
             this.QuitterMenu = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.listeDesMédicamentsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.médicamentsOffertToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.visiteurToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.listeDesVisiteursToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.médecinToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.listeDesMédecinsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.rapportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.listeDesRapportsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.créerUnRapportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -76,8 +76,7 @@
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.listeDesMédicamentsToolStripMenuItem,
-            this.médicamentsOffertToolStripMenuItem});
+            this.listeDesMédicamentsToolStripMenuItem});
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
             this.toolStripMenuItem1.Size = new System.Drawing.Size(94, 20);
             this.toolStripMenuItem1.Text = " Médicaments";
@@ -85,15 +84,9 @@
             // listeDesMédicamentsToolStripMenuItem
             // 
             this.listeDesMédicamentsToolStripMenuItem.Name = "listeDesMédicamentsToolStripMenuItem";
-            this.listeDesMédicamentsToolStripMenuItem.Size = new System.Drawing.Size(205, 22);
+            this.listeDesMédicamentsToolStripMenuItem.Size = new System.Drawing.Size(194, 22);
             this.listeDesMédicamentsToolStripMenuItem.Text = "Liste des médicaments";
             this.listeDesMédicamentsToolStripMenuItem.Click += new System.EventHandler(this.listeDesMédicamentsToolStripMenuItem_Click_1);
-            // 
-            // médicamentsOffertToolStripMenuItem
-            // 
-            this.médicamentsOffertToolStripMenuItem.Name = "médicamentsOffertToolStripMenuItem";
-            this.médicamentsOffertToolStripMenuItem.Size = new System.Drawing.Size(205, 22);
-            this.médicamentsOffertToolStripMenuItem.Text = "Liste médicaments offert";
             // 
             // visiteurToolStripMenuItem
             // 
@@ -128,7 +121,8 @@
             // rapportToolStripMenuItem
             // 
             this.rapportToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.listeDesRapportsToolStripMenuItem});
+            this.listeDesRapportsToolStripMenuItem,
+            this.créerUnRapportToolStripMenuItem});
             this.rapportToolStripMenuItem.Name = "rapportToolStripMenuItem";
             this.rapportToolStripMenuItem.Size = new System.Drawing.Size(61, 20);
             this.rapportToolStripMenuItem.Text = "Rapport";
@@ -139,6 +133,13 @@
             this.listeDesRapportsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.listeDesRapportsToolStripMenuItem.Text = "Liste des rapports";
             this.listeDesRapportsToolStripMenuItem.Click += new System.EventHandler(this.listeDesRapportsToolStripMenuItem_Click);
+            // 
+            // créerUnRapportToolStripMenuItem
+            // 
+            this.créerUnRapportToolStripMenuItem.Name = "créerUnRapportToolStripMenuItem";
+            this.créerUnRapportToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.créerUnRapportToolStripMenuItem.Text = "Créer un rapport";
+            this.créerUnRapportToolStripMenuItem.Click += new System.EventHandler(this.créerUnRapportToolStripMenuItem_Click);
             // 
             // Menu
             // 
@@ -163,13 +164,13 @@
         private System.Windows.Forms.ToolStripMenuItem QuitterMenu;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem listeDesMédicamentsToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem médicamentsOffertToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem visiteurToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem listeDesVisiteursToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem médecinToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem listeDesMédecinsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem rapportToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem listeDesRapportsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem créerUnRapportToolStripMenuItem;
     }
 }
 
