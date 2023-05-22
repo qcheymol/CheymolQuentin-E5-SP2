@@ -92,20 +92,7 @@ D:\BC2-BC3\BC2-POO\GSB\GSB_Appli\Biblio_BD\obj\Debug\Biblio_BD.pdb
 E:\BC2-BC3\BC2-POO\GSB\GSB_Appli\Biblio_BD\bin\Debug\Biblio_BD.dll
 E:\BC2-BC3\BC2-POO\GSB\GSB_Appli\Biblio_BD\bin\Debug\Biblio_BD.pdb
 E:\BC2-BC3\BC2-POO\GSB\GSB_Appli\Biblio_BD\bin\Debug\Biblio_gsb.dll
-E:\BC2-BC3\BC2-POO\GSB\GSB_Appli\Biblio_BD\bin\Debug\Google.Protobuf.dll
-E:\BC2-BC3\BC2-POO\GSB\GSB_Appli\Biblio_BD\bin\Debug\Zstandard.Net.dll
-E:\BC2-BC3\BC2-POO\GSB\GSB_Appli\Biblio_BD\bin\Debug\K4os.Compression.LZ4.Streams.dll
-E:\BC2-BC3\BC2-POO\GSB\GSB_Appli\Biblio_BD\bin\Debug\BouncyCastle.Crypto.dll
-E:\BC2-BC3\BC2-POO\GSB\GSB_Appli\Biblio_BD\bin\Debug\Ubiety.Dns.Core.dll
-E:\BC2-BC3\BC2-POO\GSB\GSB_Appli\Biblio_BD\bin\Debug\Renci.SshNet.dll
-E:\BC2-BC3\BC2-POO\GSB\GSB_Appli\Biblio_BD\bin\Debug\System.Buffers.dll
-E:\BC2-BC3\BC2-POO\GSB\GSB_Appli\Biblio_BD\bin\Debug\K4os.Compression.LZ4.dll
-E:\BC2-BC3\BC2-POO\GSB\GSB_Appli\Biblio_BD\bin\Debug\K4os.Hash.xxHash.dll
-E:\BC2-BC3\BC2-POO\GSB\GSB_Appli\Biblio_BD\bin\Debug\System.Memory.dll
-E:\BC2-BC3\BC2-POO\GSB\GSB_Appli\Biblio_BD\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
-E:\BC2-BC3\BC2-POO\GSB\GSB_Appli\Biblio_BD\bin\Debug\System.Numerics.Vectors.dll
 E:\BC2-BC3\BC2-POO\GSB\GSB_Appli\Biblio_BD\bin\Debug\Biblio_gsb.pdb
-E:\BC2-BC3\BC2-POO\GSB\GSB_Appli\Biblio_BD\bin\Debug\MySql.Data.xml
 E:\BC2-BC3\BC2-POO\GSB\GSB_Appli\Biblio_BD\obj\Debug\Biblio_BD.csproj.AssemblyReference.cache
 E:\BC2-BC3\BC2-POO\GSB\GSB_Appli\Biblio_BD\obj\Debug\Biblio_BD.csproj.CoreCompileInputs.cache
 E:\BC2-BC3\BC2-POO\GSB\GSB_Appli\Biblio_BD\obj\Debug\Biblio_BD.csproj.CopyComplete
@@ -113,3 +100,24 @@ E:\BC2-BC3\BC2-POO\GSB\GSB_Appli\Biblio_BD\obj\Debug\Biblio_BD.dll
 E:\BC2-BC3\BC2-POO\GSB\GSB_Appli\Biblio_BD\obj\Debug\Biblio_BD.pdb
 D:\BC2-BC3\BC2-POO\GSB\GSB_Appli\Biblio_BD\bin\Debug\System.Memory.dll
 D:\BC2-BC3\BC2-POO\GSB\GSB_Appli\Biblio_BD\bin\Debug\System.Numerics.Vectors.dll
+D:\doc bts + Appli\GSB\GSB\GSB_Appli\Biblio_BD\bin\Debug\Biblio_BD.dll
+D:\doc bts + Appli\GSB\GSB\GSB_Appli\Biblio_BD\bin\Debug\Biblio_BD.pdb
+D:\doc bts + Appli\GSB\GSB\GSB_Appli\Biblio_BD\bin\Debug\Biblio_gsb.dll
+D:\doc bts + Appli\GSB\GSB\GSB_Appli\Biblio_BD\bin\Debug\MySql.Data.dll
+D:\doc bts + Appli\GSB\GSB\GSB_Appli\Biblio_BD\bin\Debug\Google.Protobuf.dll
+D:\doc bts + Appli\GSB\GSB\GSB_Appli\Biblio_BD\bin\Debug\Zstandard.Net.dll
+D:\doc bts + Appli\GSB\GSB\GSB_Appli\Biblio_BD\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\doc bts + Appli\GSB\GSB\GSB_Appli\Biblio_BD\bin\Debug\BouncyCastle.Crypto.dll
+D:\doc bts + Appli\GSB\GSB\GSB_Appli\Biblio_BD\bin\Debug\Ubiety.Dns.Core.dll
+D:\doc bts + Appli\GSB\GSB\GSB_Appli\Biblio_BD\bin\Debug\Renci.SshNet.dll
+D:\doc bts + Appli\GSB\GSB\GSB_Appli\Biblio_BD\bin\Debug\System.Buffers.dll
+D:\doc bts + Appli\GSB\GSB\GSB_Appli\Biblio_BD\bin\Debug\K4os.Compression.LZ4.dll
+D:\doc bts + Appli\GSB\GSB\GSB_Appli\Biblio_BD\bin\Debug\K4os.Hash.xxHash.dll
+D:\doc bts + Appli\GSB\GSB\GSB_Appli\Biblio_BD\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\doc bts + Appli\GSB\GSB\GSB_Appli\Biblio_BD\bin\Debug\Biblio_gsb.pdb
+D:\doc bts + Appli\GSB\GSB\GSB_Appli\Biblio_BD\bin\Debug\MySql.Data.xml
+D:\doc bts + Appli\GSB\GSB\GSB_Appli\Biblio_BD\obj\Debug\Biblio_BD.csprojResolveAssemblyReference.cache
+D:\doc bts + Appli\GSB\GSB\GSB_Appli\Biblio_BD\obj\Debug\Biblio_BD.csproj.CoreCompileInputs.cache
+D:\doc bts + Appli\GSB\GSB\GSB_Appli\Biblio_BD\obj\Debug\Biblio_BD.csproj.CopyComplete
+D:\doc bts + Appli\GSB\GSB\GSB_Appli\Biblio_BD\obj\Debug\Biblio_BD.dll
+D:\doc bts + Appli\GSB\GSB\GSB_Appli\Biblio_BD\obj\Debug\Biblio_BD.pdb
