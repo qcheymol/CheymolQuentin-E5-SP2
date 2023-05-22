@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : localhost:3306
--- Généré le : jeu. 27 avr. 2023 à 13:47
+-- Généré le : Dim 21 mai 2023 à 18:41
 -- Version du serveur :  5.7.24
 -- Version de PHP : 7.4.9
 
@@ -95,19 +95,15 @@ CREATE TABLE `medecin` (
 --
 
 INSERT INTO `medecin` (`idMedecin`, `nom`, `prenom`, `adresse`, `tel`, `departement`, `idSpecialite`) VALUES
-(1, 'Riviere', 'Morgane', '35 rue gauguin 58260 La Machine', '0635908231', '58', 3),
-(2, 'Pierre-Emmanuel', 'Parot', '6 av Berry, GOUZON', '0555622124', '27', 41),
-(3, 'Harel', 'Matthieu', '4 quai Henri Bugnet , BESANCON', '0381831325', '25', 32),
-(4, 'Maire', 'Maryse', '98 bd Alliés VESOUL', '0384752005', '70', 41),
-(5, 'Borel', 'Michaël', '6 r Ordener, PARIS', '0146335250', '75', 10),
-(6, 'Pezerat', 'Raphaël', '18r Baraban, LYON', '0478245826', '69', 52),
-(7, 'Lejeune', 'Laurent', '24 av Tarente, BREST', '0298038562', '29', 38),
-(8, 'Proux', 'Sébastien', '127r Mondenard, BORDEAUX', '0556792845', '33', 4),
-(9, 'Gaumart', 'Emmanuelle', '73 r Fontaines, TOULOUSE', '0561499090', '31', 17),
-(10, 'Coustaud', 'Thierry', 'bât C 70 av William Booth, MARSEILLE', '0491453418', '13', 49),
-(11, 'nom', 'prenom', 'adresse', 'tel', '58', 1),
-(12, 'Bonneau', 'Emilien', 'Carrue', '0658987858', '58', 16),
-(15, 'Bonin', 'Baptiste', 'la-bas', '06060606', '58', 16);
+(1, 'Pierre-Emmanuel', 'Parot', '6 av Berry, GOUZON', '0555622124', '27', 41),
+(2, 'Harel', 'Matthieu', '4 quai Henri Bugnet , BESANCON', '0381831325', '25', 32),
+(3, 'Maire', 'Maryse', '98 bd Alliés VESOUL', '0384752005', '70', 41),
+(4, 'Borel', 'Michaël', '6 r Ordener, PARIS', '0146335250', '75', 10),
+(5, 'Pezerat', 'Raphaël', '18r Baraban, LYON', '0478245826', '69', 52),
+(6, 'Lejeune', 'Laurent', '24 av Tarente, BREST', '0298038562', '29', 38),
+(7, 'Proux', 'Sébastien', '127r Mondenard, BORDEAUX', '0556792845', '33', 4),
+(8, 'Gaumart', 'Emmanuelle', '73 r Fontaines, TOULOUSE', '0561499090', '31', 17),
+(9, 'Coustaud', 'Thierry', 'bât C 70 av William Booth, MARSEILLE', '0491453418', '13', 49);
 
 -- --------------------------------------------------------
 
@@ -136,13 +132,12 @@ INSERT INTO `medicament` (`idMedicament`, `nomCommercial`, `composition`, `effet
 (4, 'Doliprane', 'Paracétamol 1000 mg', 'Traitement symptomatique des douleurs d\'intensité légère à modérée et/ou des états fébriles.\r\n\r\nTraitement symptomatique des douleurs de l’arthrose.', 'Hypersensibilité à la substance active ou à l’un des excipients mentionnés à la rubrique 6.1.\r\n\r\n· Insuffisance hépatocellulaire sévère.\r\n\r\n· Enfant de moins de 6 ans en raison des risques de fausse route.', 2, 2),
 (5, 'Dafalgan codéine', 'paracétamol  500 mg\r\ncodéine (phosphate de) hémihydraté  30 mg', 'traitement des douleurs aiguës d’intensité modérée qui ne peuvent pas être soulagées par d’autres antalgiques comme le paracétamol ou l’ibuprofène ', 'Enfant de moins de 12 ans.\r\nHypersensibilité à l’un des excipients ', 3, 2),
 (6, 'Lindilane', 'codéine  18,40 mg\r\nhémihydraté   25 mg\r\nparacétamol  400 mg', 'traitement des douleurs aiguës d’intensité modérée qui ne peuvent pas être soulagées par d’autres antalgiques comme le paracétamol ou l’ibuprofène ', 'Enfant de moins de 18 ans.\r\nHypersensibilité à l’un des excipients ', 3, 2),
-(7, 'Sévrédol', 'Morphine sulfate 10 mg', 'combat la douleur en agissant directement sur le cerveau.', 'insuffisance respiratoire grave \r\ninsuffisance hépatique grave\r\népilpesie non stabilisée par un traitement\r\nen association avec les antalgiques contenant de la buprénorphine, de la nalbuphine ou de la pentazocine \r\nenfant de moins de 6 ans', 4, 2),
+(7, 'Sévrédol', 'insuffisance respiratoire grave \r\ninsuffisance hépatique grave\r\népilpesie non stabilisée par un traitement\r\nen association avec les antalgiques contenant de la buprénorphine, de la nalbuphine ou de la pentazocine \r\nenfant de moins de 6 ans', 'combat la douleur en agissant directement sur le cerveau.', 'Morphine sulfate 10 mg', 3, 2),
 (8, 'Moscontin', 'Morphine sulfate 10 mg', 'contre les douleurs intenses ou rebelles aux antalgiques de niveau plus faible.', 'hypersensibilité à la substance active ou à l’un des excipients\r\nenfant de moins de 6 ans (car la prise de comprimés nécessite la maîtrise du carrefour oro-pharyngé)\r\ninsuffisance respiratoire décompensée (en l’absence de ventilation artificielle)\r\ninsuffisance hépatocellulaire sévère (avec encéphalopathie)', 4, 2),
 (9, 'PROZAC', 'Fluoxétine 20mg\r\nSaccharose 3g', 'traitement d\'états dépressifs ', 'antécédent d\'allergie à la fluoxétine\r\nen association avec les IMAO non sélectifs et les médicaments contenant du métoprolol utilisés dans l\'insuffisance cardiaque', 7, 2),
 (10, 'CITALOPRAM ALTER', 'Citalopram 20 mg', 'Dépression de l’adulte\r\nTroubles paniques', 'insuffisance rénale grave\r\nanomalie de l\'électrocardiogramme favorisant les torsades de pointes', 7, 2),
-(11, 'Artex', 'Tertatolol chlorhydrate \r\n5 mg', 'traitement Hypertension artérielle', 'allergie', 18, 2),
-(12, 'AlMa', 'Terpine 2 mg', 'Traitement d\'appoint des troubles de la sécrétion bronchique.', 'Hypersensibilité terpine\r\nAllaitement\r\nGrossesse\r\nDéficit en lactase\r\nSyndrome de malabsorption du galactose\r\nSyndrome de malabsorption du glucose\r\nIntolérance au galactose', 27, 2),
-(13, 'test', 'test', 'test', 'test', 30, 3);
+(11, 'Artex', 'allergies', 'traitement Hypertension artérielle', 'Tertatolol chlorhydrate \r\n5 mg', 13, 2),
+(12, 'AlMa', 'Terpine 2 mg', 'Traitement d\'appoint des troubles de la sécrétion bronchique.', 'Hypersensibilité terpine\r\nAllaitement\r\nGrossesse\r\nDéficit en lactase', 19, 2);
 
 -- --------------------------------------------------------
 
@@ -151,23 +146,18 @@ INSERT INTO `medicament` (`idMedicament`, `nomCommercial`, `composition`, `effet
 --
 
 CREATE TABLE `offrir` (
-  `idMedicament` int(11) NOT NULL,
   `idRapport` int(11) NOT NULL,
-  `quantite` int(11) DEFAULT NULL
+  `idMedicament` int(11) NOT NULL,
+  `quantite` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Déchargement des données de la table `offrir`
 --
 
-INSERT INTO `offrir` (`idMedicament`, `idRapport`, `quantite`) VALUES
-(3, 3, 9),
-(3, 5, 20),
-(6, 2, 10),
-(9, 2, 5),
-(9, 5, 3),
-(10, 1, 7),
-(10, 5, 6);
+INSERT INTO `offrir` (`idRapport`, `idMedicament`, `quantite`) VALUES
+(1, 1, 4),
+(1, 4, 6);
 
 -- --------------------------------------------------------
 
@@ -180,8 +170,8 @@ CREATE TABLE `rapport` (
   `date` datetime DEFAULT NULL,
   `motif` varchar(50) DEFAULT NULL,
   `bilan` varchar(250) DEFAULT NULL,
-  `idVisiteur` int(11) DEFAULT NULL,
-  `idMedecin` int(11) DEFAULT NULL
+  `idVisiteur` int(11) NOT NULL,
+  `idMedecin` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
@@ -189,11 +179,8 @@ CREATE TABLE `rapport` (
 --
 
 INSERT INTO `rapport` (`idRapport`, `date`, `motif`, `bilan`, `idVisiteur`, `idMedecin`) VALUES
-(1, '2019-04-20 00:00:00', 'Proposition nouveau produit', 'Positif', 1, 4),
-(2, '2015-12-31 00:00:00', 'Contrat de partenariat', 'Negatif refus du contrat', 5, 2),
-(3, '2014-11-26 00:00:00', 'Test produit', 'Negatif', 1, 4),
-(4, '2019-04-20 00:00:00', 'Vente produite', 'Nouveau RDV ', 7, 9),
-(5, '2014-10-09 00:00:00', 'Vente produite', 'Client intéressé ', 8, 6);
+(1, '2023-05-02 13:29:20', 'Rendez-Vous', 'Rien à signaler', 2, 9),
+(2, '2023-05-21 00:00:00', 'Visite contractuel', 'Nouveau Médicament', 6, 6);
 
 -- --------------------------------------------------------
 
@@ -287,16 +274,14 @@ CREATE TABLE `visiteur` (
 --
 
 INSERT INTO `visiteur` (`idVisiteur`, `nom`, `prenom`, `login`, `mdp`, `adresse`, `cp`, `ville`, `dateEmbauche`) VALUES
-(1, 'Argaud', 'Annie', 'argann', 'a1z2e3', '30 rue Bretonnerie', 45000, 'ORLEANS', '2006-09-29 00:00:00'),
-(2, 'Kervarrec', 'Yann', 'KerYan', 'flptg', '19 bd Alexandre Matin', 45000, 'ORLEANS', '2006-11-30 00:00:00'),
-(3, 'Corpel', 'Olivier', 'CorOli', 'vbdls', '6 av Pasteur', 10000, 'TROYES', '2010-12-29 00:00:00'),
-(4, 'Bendelé', 'Didier', 'Bendid', 'qsdc', '42 r Franklin', 68200, 'MULHOUSE', '2014-02-11 00:00:00'),
-(5, 'Sar', 'Sothea', 'SotSar', 'hkyjfs', '81 r St Dominique', 75000, 'PARIS', '2008-01-09 00:00:00'),
-(6, 'Giraud', 'Anne-Marie', 'GirAnn', '98555', '73 bd Camille Flammarion', 13004, 'MARSEILLE', '2018-03-03 00:00:00'),
-(7, 'Chapuis', 'Gérard', 'ChaGer', 'lfgt23', '97 av William Booth', 25000, 'BESANCON', '2008-06-10 00:00:00'),
-(8, 'Pardon', 'Martial', 'ParMar', 'gfhghd', '2 r Lucie et Raymond Aubrac', 70000, 'VESOUL', '2011-03-05 00:00:00'),
-(9, 'Choix', 'Philippe', 'ChoPhi', 'qqzttf', '17 r Carnot', 70200, 'LURE', '2007-07-07 00:00:00'),
-(10, 'Beyer', 'Jean-Luc', 'BeyJea', 'gtredf', '37 r Carnot', 70200, 'LURE', '2020-11-03 00:00:00');
+(1, 'Kervarrec', 'Yann', 'KerYan', 'flptg', '19 bd Alexandre Matin', 45000, 'ORLEANS', '2006-11-30 00:00:00'),
+(2, 'Corpel', 'Olivier', 'CorOli', 'vbdls', '6 av Pasteur', 10000, 'TROYES', '2010-12-29 00:00:00'),
+(3, 'Bendelé', 'Didier', 'Bendid', 'qsdc', '42 r Franklin', 68200, 'MULHOUSE', '2014-02-11 00:00:00'),
+(4, 'Sar', 'Sothea', 'SotSar', 'hkyjfs', '81 r St Dominique', 75000, 'PARIS', '2008-01-09 00:00:00'),
+(5, 'Giraud', 'Anne-Marie', 'GirAnn', '98555', '73 bd Camille Flammarion', 13004, 'MARSEILLE', '2018-03-03 00:00:00'),
+(6, 'Chapuis', 'Gérard', 'ChaGer', 'lfgt23', '97 av William Booth', 25000, 'BESANCON', '2008-06-10 00:00:00'),
+(7, 'Pardon', 'Martial', 'ParMar', 'gfhghd', '2 r Lucie et Raymond Aubrac', 70000, 'VESOUL', '2011-03-05 00:00:00'),
+(8, 'Choix', 'Philippe', 'ChoPhi', 'qqzttf', '17 r Carnot', 70200, 'LURE', '2007-07-07 00:00:00');
 
 --
 -- Index pour les tables déchargées
@@ -327,16 +312,15 @@ ALTER TABLE `medicament`
 --
 ALTER TABLE `offrir`
   ADD PRIMARY KEY (`idMedicament`,`idRapport`),
-  ADD KEY `FK_Rapport` (`idRapport`),
-  ADD KEY `FK_Medicament` (`idMedicament`);
+  ADD KEY `FK_idMedicament` (`idMedicament`) USING BTREE;
 
 --
 -- Index pour la table `rapport`
 --
 ALTER TABLE `rapport`
   ADD PRIMARY KEY (`idRapport`),
-  ADD KEY `FK_Visiteur` (`idVisiteur`),
-  ADD KEY `FK_Medecin` (`idMedecin`);
+  ADD KEY `FK_Medecin` (`idMedecin`),
+  ADD KEY `FK_Visiteur` (`idVisiteur`) USING BTREE;
 
 --
 -- Index pour la table `specialite`
@@ -364,19 +348,19 @@ ALTER TABLE `famille`
 -- AUTO_INCREMENT pour la table `medecin`
 --
 ALTER TABLE `medecin`
-  MODIFY `idMedecin` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
+  MODIFY `idMedecin` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 
 --
 -- AUTO_INCREMENT pour la table `medicament`
 --
 ALTER TABLE `medicament`
-  MODIFY `idMedicament` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
+  MODIFY `idMedicament` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 
 --
 -- AUTO_INCREMENT pour la table `rapport`
 --
 ALTER TABLE `rapport`
-  MODIFY `idRapport` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `idRapport` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT pour la table `specialite`
@@ -388,7 +372,7 @@ ALTER TABLE `specialite`
 -- AUTO_INCREMENT pour la table `visiteur`
 --
 ALTER TABLE `visiteur`
-  MODIFY `idVisiteur` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `idVisiteur` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 
 --
 -- Contraintes pour les tables déchargées
@@ -410,8 +394,7 @@ ALTER TABLE `medicament`
 -- Contraintes pour la table `offrir`
 --
 ALTER TABLE `offrir`
-  ADD CONSTRAINT `FK_Medicament` FOREIGN KEY (`idMedicament`) REFERENCES `medicament` (`idMedicament`),
-  ADD CONSTRAINT `FK_Rapport` FOREIGN KEY (`idRapport`) REFERENCES `rapport` (`idRapport`);
+  ADD CONSTRAINT `Fk_idMedicament` FOREIGN KEY (`idMedicament`) REFERENCES `medicament` (`idMedicament`);
 
 --
 -- Contraintes pour la table `rapport`
